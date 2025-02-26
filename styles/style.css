@@ -1,0 +1,76 @@
+body{ 
+    background-color: #b1aeae;
+
+}
+header{
+    background-color: rgb(52, 157, 243);
+    border: 2px solid black;
+    margin: 3px;
+    color: grey;
+}
+
+main{
+    background-color: rgb(247, 180, 13);
+    color: black;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: justify;
+}
+footer{
+    background-color: rgb(196, 151, 238);
+    padding: 5px;
+    border: 2px solid black;
+    margin: 10px;
+    text-align:center
+}
+---------------------------------------------------------------
+
+
+h1{
+    background-color: rgb(99, 69, 182);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+li{
+    background-color: aqua;
+    color: white;
+}
+nav > ul > li {
+    background-color: black;
+    color: yellowgreen;
+}
+
+ul > li{
+    background-color: blue;
+
+}
+li:nth-child(3) {
+        background-color: green;
+}
+
+/* SELETOR DE ID */
+
+#sobre {
+    background-color: white;
+}
+
+#cardapio {
+    background-color: chocolate;
+}
+
+#equipe {
+    background-color: cadetblue;
+}
+#contato {
+    background-color: black;
+}
+
+/* SELETOR DE CLASSE */
+.content {
+    background-color: red;    
+}
