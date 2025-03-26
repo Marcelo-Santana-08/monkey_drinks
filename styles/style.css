@@ -1,20 +1,35 @@
 body{ 
-    background-color: #b1aeae;
+    background-color: #260801;
     margin: 0;
     padding: 0;
 
 }
 header{
     display: flex;
-    flex-direction:column;
+    justify-content:space-between;
     align-items: center;
+    color: grey;
+}
+
+ul{
+    display: flex;
+    gap: 05px;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+nav{
+    position: relative;
+    right: 10vw;
+    justify-content: start;
+}
+
+#banner-gorila {
     background-image: url("../assets/Images/gorilla_bartender_5.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
     height: 150vh;
-    border: 2px solid black;
-    color: grey;
 }
 
 main{
@@ -39,23 +54,35 @@ footer{
 }
 
 h1{
-    background-color: rgb(99, 69, 182);
-    color: rgb(0, 0, 0);
+    background-color: #2608010e;
+    color: rgb(255, 255, 255);
     padding: 5px;
-    border: 2px solid black;
     margin: 10px;
     text-align: center;
 }
 
 li{
     background-color: aqua;
-    color: white;
+    transition: 0.3s;
 }
 nav > ul > li {
-    background-color: black;
-    color: yellowgreen;
+    list-style-type: none;
+    background-color: #260801;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+
 }
 
+li:hover {
+    transform: scale(1.2);
+    border-radius: 7px;
+    background-color: #59220E;
+
+}
 ul > li{
     background-color: blue;
 
