@@ -1,0 +1,99 @@
+body{ 
+    background-color: #b1aeae;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-image: url("../assets/Images/gorilla_bartender_5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 150vh;
+    border: 2px solid black;
+    color: grey;
+}
+
+main{
+    background-color: rgb(247, 180, 13);
+    color: black;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: justify;
+}
+footer{
+    background-color: rgb(196, 151, 238);
+    padding: 5px;
+    border: 2px solid black;
+    margin: 10px;
+    text-align:center
+}
+
+#banner-principal {
+    border: 2px solid red;
+    width: 100vh;
+}
+
+h1{
+    background-color: rgb(99, 69, 182);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+li{
+    background-color: aqua;
+    color: white;
+}
+nav > ul > li {
+    background-color: black;
+    color: yellowgreen;
+}
+
+ul > li{
+    background-color: blue;
+
+}
+li:nth-child(3) {
+        background-color: green;
+}
+
+/* SELETOR DE ID */
+
+#sobre {
+    background-color: white;
+}
+
+#cardapio {
+    background-color: chocolate;
+}
+
+#equipe {
+    background-color: cadetblue;
+}
+#contato {
+    background-color: black;
+}
+
+/* SELETOR DE CLASSE */
+.content {
+    background-color: red;    
+}
+
+.content:hover {
+        background-color: black;
+        
+}
+.content > h2{
+    color: blueviolet;
+}
+
+#contato > h2{
+    color: blueviolet;
+}
